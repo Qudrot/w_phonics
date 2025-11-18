@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:w_phonics/pages/home_page.dart';
+import 'package:w_phonics/pages/onboarding_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
         )
       ),
       debugShowCheckedModeBanner: false,
-      home: const HomePage(),
+      home: const OnboardingPage(),
     );
   }
 }
